@@ -33,7 +33,7 @@ export default function Home() {
             animate={{ opacity: 1 }}
             transition={{ duration: 1, delay: 0.5 }}
           >
-            <nav className="text-black flex sm:text-[1.5vh] sm:space-x-[2vh] md:space-x-[6vh] sm:ml-[20vw] md:ml-[24vw] sm:-mt-[4.6vh] md:-mt-[6.5vh]">
+            <nav className="text-black flex sm:text-[1.5vh] md:text-[2vh] sm:space-x-[2vh] md:space-x-[6vh] sm:ml-[20vw] md:ml-[26vw] sm:-mt-[4.6vh] md:-mt-[6.5vh]">
               <ul className="text-[#EC368D]">GAME CONTROLLERS</ul>
               <ul>VR ACCESSORIES</ul>
               <ul>MEDIA REMOTES</ul>
@@ -58,7 +58,7 @@ export default function Home() {
           </motion.div>
           
           <motion.div 
-            className="sm:w-[22vw] md:w-[22vw] font-mono sm:top-[40vh] md:top-[48vh] sm:ml-[9vw] md:ml-[12vw] absolute opacity-75 sm:text-[1.5vh] md:text-[2vh]"
+            className="sm:w-[22vw] md:w-[22vw] font-mono sm:top-[40vh] md:top-[49vh] sm:ml-[9vw] md:ml-[12vw] absolute opacity-75 sm:text-[1.5vh] md:text-[2vh]"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1, delay: 1.5 }}
@@ -76,7 +76,7 @@ export default function Home() {
           </motion.div>
           
           <motion.div 
-            className="sm:h-[4vh] md:h-[7.5vh] sm: w-[12vh] md:w-[18vw] bg-[#e22f5b] sm:rounded-[2vh] md:rounded-[5vh] sm: ml-[11vh] md:ml-[12vw] sm: top-[58vh] md:top-[65vh] absolute text-center text-white sm: text-xs md:text-lg"
+            className="sm:h-[4vh] md:h-[7.5vh] sm: w-[12vh] md:w-[18vw] bg-[#e22f5b] sm:rounded-[2vh] md:rounded-[5vh] sm: ml-[11vh] md:ml-[11.5vw] sm:top-[58vh] md:top-[70vh] absolute text-center text-white sm: text-xs md:text-lg"
             whileHover={{ scale: 1.1 }} initial={{opacity:0}} animate={{opacity:1}} transition={{duration:1,delay:1}}
           >
             <div className="flex items-center justify-center h-full">
@@ -87,7 +87,7 @@ export default function Home() {
             </div>
           </motion.div>
 
-          <div className="sm:flex md:flex sm:space-x-[5vh] md:space-x-[10vh] sm:ml-[10vw] md:ml-[16vw] sm:mt-[5vh] md:mt-[5vh]">      
+          <div className="sm:flex md:flex sm:space-x-[5vh] md:space-x-[6vh] sm:ml-[10vw] md:ml-[12vw] sm:mt-[5vh] md:-mt-[6vh]">      
             <motion.div 
               className="text-black sm:text-[1.6vh] md:text-[1.8vh]"
               whileHover={{ scale: 1.1 }}
@@ -103,7 +103,7 @@ export default function Home() {
           </div>
 
           <motion.div 
-            className="sm:w-[60vw] sm:h-[60vh] md:w-[60vw] h-[60vh] absolute sm:top-[21vh] md:bottom-[26vh] z-10 sm:ml-[25vw] md:ml-[25vw]"
+            className="sm:w-[60vw] sm:h-[60vh] md:w-[60vw] h-[60vh] absolute sm:top-[21vh] md:top-[2vh] z-10 sm:ml-[25vw] md:ml-[25vw]"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1, delay: 2.5 }}
@@ -117,22 +117,22 @@ export default function Home() {
             animate={{ x: 0 }}
             transition={{ type: 'spring', stiffness: 120 }}
           >
-            <div className="text-white opacity-40 sm:ml-[16vw] md:ml-[19vw] sm:mt-[1vh] md:mt-[5vh] sm:text-[5vh] md:text-[8vh] font-mono">02</div>
+            <div className="text-white opacity-40 sm:ml-[16vw] md:ml-[19vw] sm:mt-[1vh] md:mt-[2vh] sm:text-[5vh] md:text-[9vh] font-mono">02</div>
             <div className="sm:mt-[12vh] md:mt-[10vh] sm:ml-[1vw] md:ml-[1vw]">
               <div className="sm:w-[1vw] md:w-[0.8vw] sm:h-[1vh] md:h-[1.6vh] border border-white rounded-[2vh] ml-[31vw] bg-white opacity-40"></div>
               <div className="sm:w-[1vw] md:w-[0.8vw] sm:h-[1vh] md:h-[1.6vh] border border-white rounded-[2vh] ml-[31vw] mt-[0.5vh] bg-white"></div>
               <div className="sm:w-[1vw] md:w-[0.8vw] sm:h-[1vh] md:h-[1.6vh] border border-white rounded-[2vh] ml-[31vw] mt-[0.5vh] bg-white opacity-40"></div>
               <div className="sm:w-[1vw] md:w-[0.8vw] sm:h-[1vh] md:h-[1.6vh] border border-white rounded-[2vh] ml-[31vw] mt-[0.5vh] bg-white opacity-40"></div>
             </div>
-            <img src="circle.svg" className="sm:mt-[15vh] md:mt-[12vh] sm:ml-[16vw] md:ml-[20vw] sm:h-[5vh] md:h-[7vh] "></img>
-            <img src="plus.svg" className="sm:top-[42vh] md:top-[47.5vh] sm:ml-[17vw] md:ml-[20.7vw] absolute sm:h-[3vh] md:h-[4vh]"></img>
+            <img src="circle.svg" className="sm:mt-[15vh] md:mt-[14vh] sm:ml-[16vw] md:ml-[20vw] sm:h-[5vh] md:h-[7vh] "></img>
+            <img src="plus.svg" className="sm:top-[42vh] md:top-[48.8vh] sm:ml-[17vw] md:ml-[20.7vw] absolute sm:h-[3vh] md:h-[4vh]"></img>
             <div className="text-white sm:ml-[14.5vw] md:ml-[19.3vw] sm:mt-[0.5vh] md:mt-[1vh] absolute sm:text-[1.5vh] md:text-[2vh] sm:opacity-75 md:opacity-75">Add To Cart</div>
             <img src="twitter.svg" className="sm:top-[54vh] md:top-[64vh] sm:ml-[16vw] md:ml-[20vw] sm:h-[2vh] md:h-[2vh] absolute"></img>
             <img src="instagram.svg" className="sm:top-[54vh] md:top-[64vh] sm:ml-[20vw] md:ml-[24vw] sm:h-[2vh] md:h-[2vh] absolute"></img>
             <img src="facebook.svg" className="sm:top-[54vh] md:top-[64vh] sm:ml-[24vw] md:ml-[28vw] sm:h-[2vh] md:h-[2vh] absolute"></img>
           </motion.div>
 
-          <div className="flex space-x-[1vw] sm:ml-[40vw] md:ml-[43vw] sm:mt-[18vh] md:mt-[3vh] sm:h-[1vh] md:h-[2vh]">
+          <div className="flex space-x-[1vw] sm:ml-[40vw] md:ml-[43vw] sm:mt-[18vh] md:mt-[18vh] sm:h-[1vh] md:h-[2vh]">
             <div className="sm:w-[0.8vw] md:w-[0.8vw] sm:h-[0.8vh] md:h-[1.6vh] rounded-[2vh] bg-[#e22f5b]"></div>
             <div className="sm:w-[0.8vw] md:w-[0.8vw] sm:h-[0.8vh] md:h-[1.6vh] rounded-[2vh] bg-[#1796CC]"></div>
             <div className="sm:w-[0.8vw] md:w-[0.8vw] sm:h-[0.8vh] md:h-[1.6vh] rounded-[2vh] bg-[#FFCC17]"></div>

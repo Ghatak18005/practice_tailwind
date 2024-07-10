@@ -103,7 +103,7 @@ export default function Home() {
           </div>
 
           <motion.div 
-            className="sm:w-[60vw] sm:h-[60vh] md:w-[60vw] h-[60vh] absolute sm:top-[21vh] md:bottom-[26vh] z-10 sm:ml-[25vw] md:ml-[25vw]"
+            className="sm:w-[60vw] sm:h-[60vh] md:w-[60vw] md:h-[60vh] absolute sm:top-[21vh] md:bottom-[26vh] z-10 sm:ml-[25vw] md:ml-[25vw]"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1, delay: 2.5 }}
